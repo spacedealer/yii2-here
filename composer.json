@@ -27,7 +27,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"spacedealer\\here\\api\\": "src/"
+			"spacedealer\\here\\": "src/"
 		}
 	}
 }
