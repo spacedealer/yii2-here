@@ -1,6 +1,22 @@
 {
 	"name": "spacedealer/yii2-here",
 	"description": "Yii2 extension here.com REST api",
+	"keywords": [
+		"yii2",
+		"extension",
+		"here",
+		"guzzle",
+		"REST",
+		"api",
+		"client"
+	],
+	"homepage": "https://github.com/spacedealer/yii2-here",
+	"type": "yii2-extension",
+	"license": "BSD-3-Clause",
+	"support": {
+		"issues": "https://github.com/spacedealer/yii2-here/issues",
+		"source": "https://github.com/spacedealer/yii2-here"
+	},
 	"authors": [
 		{
 			"name": "Dirk Adler",
@@ -11,19 +27,12 @@
 			"email": "t.nguyen@spacedealer.de"
 		}
 	],
-	"repositories": [
-		{
-			"type": "git",
-			"url": "git@bitbucket.org:spacedealer/here-api.git"
-		}
-	],
-	"minimum-stability": "dev",
 	"require": {
 		"yiisoft/yii2": "*",
-		"spacedealer/here-api": "*"
+		"spacedealer/here-api": "dev-master"
 	},
 	"require-dev": {
-		"phpunit/phpunit": "3.7.*"
+		"phpunit/phpunit": "4.3.*"
 	},
 	"autoload": {
 		"psr-4": {

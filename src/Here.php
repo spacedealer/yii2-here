@@ -1,6 +1,6 @@
 <?php
 /**
- * GeoCoder.php file.
+ * Here.php file.
  *
  * @author Trung Nguyen <t.nguyen@spacedealer.de>
  * @author Dirk Adler <adler@spacedealer.de>
@@ -16,15 +16,20 @@ use spacedealer\here\api\Places;
 use spacedealer\here\api\ReverseGeoCoder;
 use yii\base\Component;
 
+/**
+ * Class Here
+ *
+ * @package spacedealer\here
+ */
 class Here extends Component
 {
     /**
-     * @var string App Code - please use your own registered app for testing
+     * @var string App Code - please use your own registered app code for testing
      */
     public $appCode = 'AJKnXv84fjrb0KIHawS0Tg';
 
     /**
-     * @var string App Id - please use your own registered app for testing
+     * @var string App Id - please use your own registered app id for testing
      */
     public $appId = 'DemoAppId01082013GAL';
 
@@ -88,7 +93,7 @@ class Here extends Component
     }
 
     /**
-     * Get client by option id
+     * Get client by class map id
      *
      * @param $id
      * @return mixed
@@ -96,7 +101,7 @@ class Here extends Component
     public function getClient($id)
     {
         if (!isset($this->apiClients[$id])) {
-            throw new \RuntimeException("Api Client '$id' not supported");
+            throw new \RuntimeException("Api client '$id' not supported");
         }
 
         if (!$this->_clients[$id]) {
