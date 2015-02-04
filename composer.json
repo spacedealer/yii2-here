@@ -29,10 +29,10 @@
 	],
 	"require": {
 		"yiisoft/yii2": "*",
-		"spacedealer/here-api": "dev-master"
+		"spacedealer/here-api": "0.1.*"
 	},
 	"require-dev": {
-		"phpunit/phpunit": "4.3.*"
+		"phpunit/phpunit": "4.4.*"
 	},
 	"autoload": {
 		"psr-4": {
