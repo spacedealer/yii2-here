@@ -18,7 +18,6 @@ use yii\base\Component;
 
 /**
  * Class Here
- *
  * @package spacedealer\here
  */
 class Here extends Component
@@ -104,7 +103,7 @@ class Here extends Component
             throw new \RuntimeException("Api client '$id' not supported");
         }
 
-        if (!$this->_clients[$id]) {
+        if (!isset($this->_clients[$id])) {
             $class = $this->apiClients[$id];
             $this->_clients[$id] = new $class(
                 $this->appId,
@@ -114,6 +113,7 @@ class Here extends Component
                 isset($this->options[$id]['baseUrl']) ? $this->options[$id]['baseUrl'] : null
             );
         }
+
         return $this->_clients[$id];
     }
 }
