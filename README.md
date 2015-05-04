@@ -57,10 +57,6 @@ $response = $geocoder->geocode([
 $displayPosition = $response->getPath('Response/View/0/Result/0/Location/DisplayPosition');
 ```
 
-## Todos
-
- - add unit tests
-
 ## Resources
 
  - [Source](https://github.com/spacedealer/yii2-here)
