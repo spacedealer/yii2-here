@@ -7,6 +7,7 @@ It wraps around the [here-api php library](https://github.com/spacedealer/here-a
 
 Please see [here-api php library](https://github.com/spacedealer/here-api) readme for currently supported APIs.
 
+[![Build Status](https://travis-ci.org/spacedealer/yii2-here.svg?branch=master)](https://travis-ci.org/spacedealer/yii2-here)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/277b77ff-44fd-4c89-ad74-205a29e47dcd/mini.png)](https://insight.sensiolabs.com/projects/277b77ff-44fd-4c89-ad74-205a29e47dcd)
 [![Dependency Status](https://www.versioneye.com/user/projects/547f125d8674a43281000116/badge.svg?style=flat)](https://www.versioneye.com/user/projects/547f125d8674a43281000116)
 
